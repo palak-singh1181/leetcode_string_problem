@@ -1,4 +1,5 @@
-class lastlengthofword {
+public class lastlengthofword {
+
     public int lengthOfLastWord(String s) {
         s = s.trim();
         int count = 0;
@@ -15,10 +16,10 @@ class lastlengthofword {
     }
 
     public static void main(String[] args) {
-        lastlengthofword sol = new lastlengthofword();
+        lastlengthofword obj = new lastlengthofword();
 
-        System.out.println(sol.lengthOfLastWord("Hello World"));           // 5
-        System.out.println(sol.lengthOfLastWord("   fly me   to   the moon  ")); // 4
-        System.out.println(sol.lengthOfLastWord("luffy is still joyboy")); // 6
+        System.out.println(obj.lengthOfLastWord("Hello World"));
+        System.out.println(obj.lengthOfLastWord("   fly me   to   the moon  "));
+        System.out.println(obj.lengthOfLastWord("luffy is still joyboy"));
     }
 }
